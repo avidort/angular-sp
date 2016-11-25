@@ -1,0 +1,22 @@
+[{
+  id: 6,
+  name: "Folder A.1.1",
+  hasChildren: false,
+  files: [
+    {
+      name: "file1",
+      type: "document",
+      size: 4
+    },
+    {
+      name: "file2",
+      type: "document",
+      size: 2
+    },
+    {
+      name: "file3",
+      type: "document",
+      size: 2
+    }
+  ]
+}]

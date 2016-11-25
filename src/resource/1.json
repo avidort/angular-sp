@@ -1,0 +1,57 @@
+[{
+  id: 3,
+  name: "Folder A.1",
+  hasChildren: true,
+  files: [
+    {
+      name: "file1",
+      type: "document",
+      size: 4
+    },
+    {
+      name: "file2",
+      type: "document",
+      size: 2
+    },
+    {
+      name: "file3",
+      type: "document",
+      size: 2
+    },
+    {
+      name: "file4",
+      type: "video",
+      size: 30
+    },
+    {
+      name: "file5",
+      type: "video",
+      size: 12
+    },
+    {
+      name: "file6",
+      type: "audio",
+      size: 10
+    },
+    {
+      name: "file7",
+      type: "database",
+      size: 47
+    },
+    {
+      name: "file8",
+      type: "emails",
+      size: 17
+    },
+    {
+      name: "file9",
+      type: "emails",
+      size: 4
+    },
+    {
+      name: "file10",
+      type: "virtual machines",
+      size: 100
+    }
+  ]
+}]
