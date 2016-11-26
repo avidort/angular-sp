@@ -1,11 +1,9 @@
-<div class="container">
-  <div ng-switch="$ctrl.status">
-    <div ng-switch-when="false">
-      Loading...
-    </div>
-    <div ng-switch-when="true" class="row">
-      <folder-tree class="col-sm-6"></folder-tree>
-      <pie-chart class="col-sm-6"></pie-chart>
-    </div>
+<div ng-switch="$ctrl.status">
+  <div ng-switch-when="false">
+    <div class="loader"></div>
+  </div>
+  <div ng-switch-when="true">
+    <folder-tree class="col-sm-6"></folder-tree>
+    <pie-chart class="col-sm-6"></pie-chart>
   </div>
 </div>
