@@ -9,12 +9,14 @@ mainModule
                 chart: {
                     type: 'pieChart',
                     height: 400,
-                    x: function(d) { return d.key; },
-                    y: function(d) { return d.y; },
+                    x: function(d) { return d.label; },
+                    y: function(d) { return d.value; },
                     showLabels: false,
                     duration: 250,
                     labelThreshold: 0.01,
+                    labelType: 'percent',
                     donut: true,
+                    donutRatio: 0.35,
                     legend: {
                         margin: {
                             top: 5,
@@ -28,7 +30,7 @@ mainModule
             $scope.data = [];
             const types = folderService.getTypes();
             for (let type in types) {
-                $scope.data.push({key: type, y: types[type]});
+                $scope.data.push({label: type, value: Number(types[type])});
             }
         }]
     });

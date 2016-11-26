@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "cd src && http-server -p 8080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "jspm bundle [modules/**/*.js] + [modules/**/*.css!] + [modules/**/*.html!ng-template] src/modules.js -im",
+    "unbundle": "jspm unbundle"
   },
   "author": "avidort",
   "license": "ISC",
@@ -22,11 +23,11 @@
       "angular": "github:angular/bower-angular@^1.5.8",
       "angular-mocks": "npm:angular-mocks@^1.5.9",
       "angular-nvd3": "npm:angular-nvd3@^1.0.9",
-      "angular-ui-bootstrap": "npm:angular-ui-bootstrap@^2.2.0",
       "angular-ui-tree": "github:angular-ui-tree/angular-ui-tree@^2.22.1",
-      "bootstrap": "npm:bootstrap@3",
+      "css": "github:systemjs/plugin-css@^0.1.32",
       "ng-template": "npm:plugin-ng-template@^0.1.1",
-      "plugin-ng-template": "npm:plugin-ng-template@^0.1.1"
+      "plugin-ng-template": "npm:plugin-ng-template@^0.1.1",
+      "systemjs/plugin-css": "github:systemjs/plugin-css@^0.1.32"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

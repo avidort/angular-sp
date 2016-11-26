@@ -17,14 +17,14 @@ System.config({
     "angular": "github:angular/bower-angular@1.5.8",
     "angular-mocks": "npm:angular-mocks@1.5.9",
     "angular-nvd3": "npm:angular-nvd3@1.0.9",
-    "angular-ui-bootstrap": "npm:angular-ui-bootstrap@2.2.0",
     "angular-ui-tree": "github:angular-ui-tree/angular-ui-tree@2.22.1",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
-    "bootstrap": "npm:bootstrap@3.3.7",
     "core-js": "npm:core-js@1.2.7",
+    "css": "github:systemjs/plugin-css@0.1.32",
     "ng-template": "npm:plugin-ng-template@0.1.1",
     "plugin-ng-template": "npm:plugin-ng-template@0.1.1",
+    "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.32",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
@@ -55,11 +55,6 @@ System.config({
       "util": "npm:util@0.10.3"
     },
     "npm:babel-runtime@5.8.38": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:bootstrap@3.3.7": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:buffer@3.6.0": {

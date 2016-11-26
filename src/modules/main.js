@@ -3,6 +3,7 @@ import './tree/tree';
 
 import mainModule from './main-module';
 import mainTemplate from './main.html!ng-template';
+import './main.css!';
 
 mainModule
     .component('filesTab', {
