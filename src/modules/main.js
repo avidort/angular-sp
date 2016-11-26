@@ -60,9 +60,8 @@ mainModule
                 return fileTypes;
             },
 
-            get: function() {
-                console.log(itemObject);
-                console.log(fileTypes);
+            getItems: function() {
+                return itemObject;
             }
         }
     }]);

@@ -27,7 +27,9 @@ mainModule
                     }
                 }
             };
+
             $scope.data = [];
+
             const types = folderService.getTypes();
             for (let type in types) {
                 $scope.data.push({label: type, value: Number(types[type])});

@@ -12,6 +12,19 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  bundles: {
+    "build.js": [
+      "modules/main.js",
+      "modules/main.css!github:systemjs/plugin-css@0.1.32.js",
+      "modules/main.html!npm:plugin-ng-template@0.1.1.js",
+      "modules/main-module.js",
+      "modules/tree/tree.js",
+      "modules/tree/tree.css!github:systemjs/plugin-css@0.1.32.js",
+      "modules/tree/tree.html!npm:plugin-ng-template@0.1.1.js",
+      "modules/chart/chart.js",
+      "modules/chart/chart.html!npm:plugin-ng-template@0.1.1.js"
+    ]
+  },
 
   map: {
     "angular": "github:angular/bower-angular@1.5.8",

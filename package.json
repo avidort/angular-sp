@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "cd src && http-server -p 8080",
-    "bundle": "jspm bundle [modules/**/*.js] + [modules/**/*.css!] + [modules/**/*.html!ng-template] src/modules.js -im",
+    "bundle": "jspm bundle [modules/**/*.js] + [modules/**/*.css!] + [modules/**/*.html!ng-template] src/build.js -im",
     "unbundle": "jspm unbundle"
   },
   "author": "avidort",
